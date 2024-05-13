@@ -1,0 +1,19 @@
+{
+  "name": "estudos",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "dotenv": "^16.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun --hot server.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "postgres": "^3.4.4"
+  }
+}

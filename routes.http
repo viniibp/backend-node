@@ -1,0 +1,31 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "jaffrey daniels",
+    "description": "123",
+    "duration": 999
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+GET http://localhost:3333/videos?search=azuis
+
+###
+
+PUT http://localhost:3333/videos/eacb8a45-9e14-48c1-81da-12e2e1965aaf
+Content-Type: application/json
+
+{
+    "title": "pennys white",
+    "description": "descricao 10",
+    "duration": 100
+  }
+
+###
+
+DELETE http://localhost:3333/videos/452bf857-eec3-456b-9310-aa54462793f0
