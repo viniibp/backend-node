@@ -49,5 +49,6 @@ server.get("/", () => {
 });
 
 server.listen({
+  host:'0.0.0.0',
   port: Number(env.PORT ?? 3333),
 });
