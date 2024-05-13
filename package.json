@@ -9,6 +9,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
+    "start": "bun server.ts",
     "dev": "bun --hot server.ts"
   },
   "type": "module",
